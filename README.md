@@ -39,6 +39,57 @@ Main Menu
 └── Exit Program
 ```
 
+## 📸 Demo Walkthrough
+
+Below is a step-by-step walkthrough of the program in action, with a screenshot for each operation.
+
+### 1. Main Menu
+The program starts by displaying the main menu, letting the user choose between the Donor Section and Blood Section.
+
+![Main Menu](screenshots/01-main-menu.png)
+
+### 2. Add Donor
+Adds a new donor by collecting their ID, name, blood group, and contact number, then saves the record to `AddDonorDetails.txt`.
+
+![Add Donor](screenshots/02-add-donor.png)
+
+### 3. Show All Donors
+Displays every donor record currently stored in the system.
+
+![Show All Donors](screenshots/03-show-all-donors.png)
+
+### 4. Update Donor
+Looks up a donor by ID and lets the user update their first name, last name, blood group, or contact number.
+
+![Update Donor](screenshots/04-update-donor.png)
+
+### 5. Delete Donor
+Looks up a donor by ID, displays the record, and removes it after confirmation.
+
+![Delete Donor](screenshots/05-delete-donor.png)
+
+### 6. Add Units
+Adds blood units for a specified blood group to the stock file.
+
+![Add Units](screenshots/06-add-units.png)
+
+### 7. Available Units
+Checks and displays the number of available units for a given blood group.
+
+![Available Units](screenshots/07-available-units.png)
+
+### 8. Donate Units
+Deducts units from stock when blood is donated/issued, updating the blood unit file.
+
+![Donate Units](screenshots/08-donate-units.png)
+
+### 9. Exit Program
+Asks for confirmation before exiting, or returns to the main menu.
+
+![Exit Program](screenshots/09-exit-program.png)
+
+> 📁 All screenshots are stored in the `screenshots/` folder of this repository.
+
 ## 🗂️ Data Storage
 
 The program uses flat text files instead of a database:
